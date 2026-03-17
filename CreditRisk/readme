@@ -1,0 +1,9 @@
+Task 1: Credit Risk Analysis (Data Cleaning)
+Objective: Prepare a raw financial dataset for machine learning by handling missing values and outliers.
+
+Key Skills: Data Imputation, Schema Alignment, Outlier Detection.
+
+
+Technical Challenges Overcome: Resolved KeyError and AttributeError by identifying that the dataset used non-standard column names like Bank Balance and Annual Salary instead of expected defaults.
+
+Outcome: A cleaned, normalized dataset ready for predictive modeling.
