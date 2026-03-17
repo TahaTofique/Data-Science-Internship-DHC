@@ -1,2 +1,32 @@
-# Data-Science-Internship-DHC
-I have started a 2 month remote internship at DevelopersHub Corporation . learning and working on the given task in the field of Data Science . 
+Data Science & Machine Learning Internship PortfolioIntern: Taha Tofique
+Company: DeveloperHub Corporation
+Institution: NUCES (FAST)
+Duration: Spring 2026📌 
+Overview
+This repository contains a comprehensive collection of data science projects and technical tasks completed during my internship at DeveloperHub Corporation. The projects span the full data lifecycle—from low-level system logic and data cleaning to high-level predictive modeling and business intelligence extraction.
+ Technical Skill 
+SetMachine Learning: Supervised Learning (Regression, Classification), Model Evaluation (MAE, RMSE, Accuracy, F1-Score).
+Data Engineering: Preprocessing, Handling Missing Values, Outlier Detection, Feature Encoding (Label/One-Hot).
+Core CS Foundations: x86 Assembly (MASM), System Logic, Relational Database Design (SQL).
+Tools & Libraries: Python (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib), VS Code, GitHub. 
+ Project Directory
+[Task 1: Credit Risk Data Pipeline]
+Focus: Data Cleaning & Preprocessing.
+Key Insight: Streamlined a financial dataset by identifying hidden schema mismatches and applying median-based imputation for missing values.
+[Task 2: Binary Classification for Loan Defaults]
+Focus: Machine Learning Fundamentals.
+Key Insight: Developed a logistic regression model to baseline the relationship between annual income and default probability.
+[Task 3: Customer Churn Analytics]
+Focus: Advanced Classification & Feature Importance.
+Key Insight: Utilized Random Forest to rank behavioral drivers, discovering that customer age and account balance were the primary indicators of churn.
+[Task 4: Medical Claim Amount Prediction]
+Focus: Regression Modeling.Key Insight: Built a multi-variable linear regression model that quantified the correlation between smoking status and insurance premium surges.
+[Task 5: Personal Loan Acceptance & Segmentation]
+Focus: Business Intelligence & Decision Trees.
+Key Insight: Resolved complex semicolon-delimited data issues to build a decision tree that identifies high-converting job categories for bank marketing campaigns. 
+Technical Challenges
+OvercomeEnvironment & Pathing: Resolved multiple FileNotFoundError issues by implementing robust relative path structures within the VS Code workspace. 
+Data Schema Alignment: Successfully debugged KeyError and ValueError instances by performing deep-dive schema analysis on raw CSV files. Delimiter Resolution: Identified and corrected non-standard data formatting (semicolon vs comma) to ensure model stability.
+Contact & ProfilesGitHub:
+github.com/TahaTofique 
+LinkedIn: linkedin.com/in/taha-tofique 
