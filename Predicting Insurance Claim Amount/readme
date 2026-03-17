@@ -1,0 +1,9 @@
+Task 4: Predicting Insurance Claim Amounts (Regression)
+Objective: Estimate medical insurance costs based on personal and demographic data.
+
+Key Skills: Linear Regression, Multi-variable Correlation, Error Evaluation (MAE/RMSE).
+
+
+Technical Challenges Overcome: Resolved a FileNotFoundError by implementing proper relative path resolution for the insurance.csv dataset.
+
+Outcome: A regression model capable of estimating claims with measured error margins, highlighting the heavy impact of smoking on insurance premiums.
