@@ -1,0 +1,8 @@
+Task 3: Customer Churn Prediction (Feature Engineering)
+Objective: Identify high-risk customers likely to leave the bank using behavioral data.
+
+Key Skills: One-Hot Encoding, Random Forest Classification, Feature Importance.
+
+Implementation: Used a Random Forest model to handle non-linear relationships and ranked features like Age and Balance to understand churn drivers.
+
+Outcome: Provided actionable insights into which customer demographics require higher retention efforts.
