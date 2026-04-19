@@ -1,1 +1,11 @@
-
+Term Deposit Subscription Prediction (Explainable AI)
+Objective:Predict whether a bank customer will subscribe to a term deposit based on marketing campaign data and provide transparent reasoning for each prediction using Explainable AI (XAI).
+Key Skills:
+Data Engineering: Robust CSV Parsing & Header Cleaning
+Machine Learning: Ensemble Modeling (Random Forest) vs. Linear Baselines
+Explainable AI: SHAP (SHapley Additive exPlanations) for Model Transparency
+Technical Challenges Overcome:
+Path & Syntax Resolution: Fixed a SyntaxError (unicode error) by implementing raw string paths (r'') to handle Windows backslashes and corrected plt.plot logic.
+Schema Integrity: Resolved a persistent KeyError: 'y' by implementing aggressive column name stripping and quote removal to handle inconsistent CSV formatting.
+SHAP Dimension Alignment: Overcame a TypeError in the force_plot by explicitly indexing the multi-output SHAP values and base values to isolate the "Subscription = Yes" class.
+Outcome:A high-accuracy Random Forest model ($AUC \approx 0.92$) that doesn't just predict outcomes but explains them. By integrating SHAP, the bank can now see that call duration and housing status are the primary drivers of customer decisions, enabling more personalized and effective sales strategies.
