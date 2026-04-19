@@ -1,0 +1,13 @@
+Objective:
+Analyze mall customer behavior to discover hidden patterns in spending and demographics, allowing for the creation of data-driven marketing personas and targeted business strategies.
+Key Skills:
+Unsupervised Learning: Pattern recognition using K-Means Clustering.
+Dimensionality Reduction: Compressing complex data into 2D space using Principal Component Analysis (PCA).
+Data Visualization: Exploratory distribution analysis and cluster mapping.
+Business Intelligence: Translating algorithmic clusters into actionable marketing strategies.
+Technical Challenges Overcome:
+Feature Scaling: Identified that "Annual Income" and "Age" have vastly different scales, which would bias K-Means; resolved this by implementing StandardScaler.
+Optimal Cluster Selection: Utilized the Elbow Method (WCSS) to mathematically determine that 5 clusters provided the most stable segmentation for this population.
+High-Dimensional Visualization: Overcame the difficulty of plotting 3D features (Age, Income, Spending) by using PCA to project the data into two principal components without losing the underlying cluster structure.
+Outcome:
+The analysis successfully categorized the customer base into 5 distinct profiles. This allows mall management to move away from generic advertising and instead deploy specific campaigns, such as Luxury Invitations for high-income/high-spenders and Loyalty Discounts for budget-conscious older segments.
