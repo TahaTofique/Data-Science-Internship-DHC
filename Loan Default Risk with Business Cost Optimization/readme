@@ -1,0 +1,12 @@
+Task: Loan Default Risk Prediction (Advanced Modeling)
+Objective: Predict the probability of loan default by integrating multi-table relational data from various financial bureaus.
+
+Key Skills: XGBoost, Multi-table Data Merging, Class Imbalance Handling.
+
+Technical Challenges Overcome: * Resolved complex KeyError issues by resetting indices during the aggregation of bureau.csv.
+
+Fixed strict XGBoost TypeError constraints by enforcing float32 numeric casting across all encoded categorical features.
+
+Addressed class imbalance (Target=1 being rare) by utilizing scale_pos_weight to improve recall.
+
+Outcome: A high-performance gradient boosting model capable of assessing applicant risk across multiple financial dimensions, specifically highlighting the importance of external credit scores.
