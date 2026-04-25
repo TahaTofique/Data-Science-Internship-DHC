@@ -22,6 +22,15 @@ Key Insight: Utilized Random Forest to rank behavioral drivers, discovering that
 [Task 4: Medical Claim Amount Prediction]
 Focus: Regression Modeling.Key Insight: Built a multi-variable linear regression model that quantified the correlation between smoking status and insurance premium surges.
 [Task 5: Personal Loan Acceptance & Segmentation]
+[Task 6: Term Deposit Subscription & XAI]
+Focus: Classification & Explainable AI (SHAP).
+Key Insight: Built a Random Forest classifier to predict bank deposit subscriptions. Integrated SHAP to move beyond "black-box" modeling, identifying that call duration and previous campaign success were the most influential predictors.
+[Task 7: Household Energy Forecasting]
+Focus: Time-Series Analysis & Resampling.
+Key Insight: Developed a predictive pipeline for energy consumption. Overcame data noise by resampling per-minute data into hourly intervals and utilized ARIMA to forecast demand trends.
+[Task 8: Multi-Table Loan Default Risk]
+Focus: Advanced Gradient Boosting & Relational Data.
+Key Insight: Engineered a robust risk assessment model by merging application_train with external bureau credit records. Utilized XGBoost with scale_pos_weight to accurately detect rare default events in a highly imbalanced dataset.
 Focus: Business Intelligence & Decision Trees.
 Key Insight: Resolved complex semicolon-delimited data issues to build a decision tree that identifies high-converting job categories for bank marketing campaigns. 
 Technical Challenges
