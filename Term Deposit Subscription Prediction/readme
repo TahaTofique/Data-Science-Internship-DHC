@@ -1,0 +1,8 @@
+Task : Term Deposit Subscription Prediction (Classification)
+Objective: Predict whether a bank customer will subscribe to a term deposit based on marketing campaign data.
+
+Key Skills: Random Forest Classification, Feature Encoding, Explainable AI (XAI) using SHAP.
+
+Technical Challenges Overcome: Managed high-dimensional categorical data and interpreted "black-box" model decisions using SHAP to identify that duration and poutcome were the primary drivers of subscription.
+
+Outcome: Developed a robust classification pipeline that provides both high predictive accuracy and transparency for business stakeholders.
